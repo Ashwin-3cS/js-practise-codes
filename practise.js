@@ -17,4 +17,12 @@
 // var bmi=bmiCalculator(65,1.8);
 // console.log("Body mass index of this person is",bmi);
 
+/* Love calculator */
+function luv(){
+  prompt("first person:");
+  prompt("second person:");
+  var calci=Math.random();
+  console.log("The love percentage is:",calci)
 
+}
+luv();
