@@ -18,11 +18,28 @@
 // console.log("Body mass index of this person is",bmi);
 
 /* Love calculator */
-function luv(){
-  prompt("first person:");
-  prompt("second person:");
-  var calci=Math.random();
-  console.log("The love percentage is:",calci)
+// function luv(){
+//   prompt("first person:");
+//   prompt("second person:");
+//   var calci=Math.random();
+//   console.log("The love percentage is:",calci)
+
+// }
+// luv();
+
+function bmiCalculator(weight,height){
+  var ans=(weight/(height*height));
+  return Math.floor(ans);
 
 }
-luv();
+var bmi=bmiCalculator(65,1.8);
+console.log("Body mass index of this person is",bmi);
+if (bmi<18.5){
+  console.log("underweight");
+}if(bmi>18.5 && bmi<24.9){
+  console.log('normie');
+
+}if(bmi>24.9){
+  console.log("overweught");
+}
+
