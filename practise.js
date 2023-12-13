@@ -43,12 +43,23 @@
 //   console.log("overweught");
 // }
 
-function leapyear(year){
-  if((year%4===0 && year%100!==0 || year%400===0)){
-    console.log("its a leap year")
-  }else{
-    console.log("not a leap year")
-  }
-}
-leapyear(2024);
+/*leap year*/
+// function leapyear(year){
+//   if((year%4===0 && year%100!==0 || year%400===0)){
+//     console.log("its a leap year")
+//   }else{
+//     console.log("not a leap year")
+//   }
+// }
+// leapyear(2024);
+
+// function guestWelcomer(reciever){
+//   var guests=["Angela","Jack","Pam","James","Lara","Jason"];
+//   if (guests.includes(reciever)){
+//     console.log("welcome",reciever)
+//   }else{
+//     console.log("Maybe next time")
+//   }
+// }
+// guestWelcomer("An");
 
