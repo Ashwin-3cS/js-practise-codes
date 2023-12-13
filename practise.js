@@ -76,14 +76,22 @@
 // randomName()
 
 
-function beer(){
-  bottles=100
-  while(bottles>=1){
-    console.log(bottles,"bottles of beer on the wall ",bottles,"bottles of beer. Take 1 down, pass it around ,",bottles,"bottles of beer on the wall.")
-    bottles--;
+/* Fibonacci generator */
+function fiboGen(n){
+  var op=[];
+  if(n===1){
+    op=[0];
+  }else if(n===2){
+    op=[0,1]
+  }else{
+    op=[0,1];
+    for(i=2;i<n;i++){
+      op.push(op[op.length-2]+op[op.length-1]);//Now i want to add it in the existing array
+    }
+  return op  
   }
 }
-beer()
-
+var output=fiboGen(5);
+console.log(output)
 
 
