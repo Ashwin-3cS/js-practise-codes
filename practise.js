@@ -27,19 +27,28 @@
 // }
 // luv();
 
-function bmiCalculator(weight,height){
-  var ans=(weight/(height*height));
-  return Math.floor(ans);
+// function bmiCalculator(weight,height){
+//   var ans=(weight/(height*height));
+//   return Math.floor(ans);
 
-}
-var bmi=bmiCalculator(65,1.8);
-console.log("Body mass index of this person is",bmi);
-if (bmi<18.5){
-  console.log("underweight");
-}if(bmi>18.5 && bmi<24.9){
-  console.log('normie');
+// }
+// var bmi=bmiCalculator(65,1.8);
+// console.log("Body mass index of this person is",bmi);
+// if (bmi<18.5){
+//   console.log("underweight");
+// }if(bmi>18.5 && bmi<24.9){
+//   console.log('normie');
 
-}if(bmi>24.9){
-  console.log("overweught");
+// }if(bmi>24.9){
+//   console.log("overweught");
+// }
+
+function leapyear(year){
+  if((year%4===0 && year%100!==0 || year%400===0)){
+    console.log("its a leap year")
+  }else{
+    console.log("not a leap year")
+  }
 }
+leapyear(2024);
 
