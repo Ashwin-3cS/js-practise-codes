@@ -63,3 +63,16 @@
 // }
 // guestWelcomer("An");
 
+/*random selector*/
+// function randomName(){
+  
+//   var names=["a","b","c","d","e"]
+
+//   var noPeople=names.length;
+//   var randomer=Math.floor(Math.random()*noPeople);
+//   console.log(names[randomer],"is gonna pay")
+  
+// }
+// randomName()
+
+
